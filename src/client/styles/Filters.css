@@ -1,0 +1,36 @@
+.title {
+    font-size: 18px;
+    margin: 20px 20px 0;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.filter_year_title {
+    font-size: 16px;
+    padding: 5px 10px;
+    border-bottom: solid 3px lightgrey;
+    width: 150px;
+    margin: auto;
+    text-align: center;    
+}
+
+.year {
+    display: inline-block;
+    width: 50px;
+    background: #C3E197;
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.active_filter {
+    background: #7DBA06;
+}
+
+.col_filter {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}

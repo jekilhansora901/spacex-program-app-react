@@ -1,0 +1,135 @@
+@media only screen and (max-width: 700px) {
+  .main_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+  .sidebar {
+    margin: 10px;
+    background: white;
+    border-radius: 2px;
+    height: fit-content;
+    vertical-align: top;
+    border: 1px solid #eee;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+
+  .sidebar_filter {
+    width: 100%
+  }
+  .content {
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .main_container {
+    display: flex;
+  }
+
+  .sidebar {
+    margin-top: 10px;
+    margin-left: 10px;
+    background: white;
+    border-radius: 2px;
+    height: fit-content;
+    vertical-align: top;
+    border: 1px solid #eee;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    width: 47%;
+  }
+
+  .sidebar_filter {
+    width: 30%
+  }
+  .content {
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main_container {
+    display: flex;
+  }
+  
+  .sidebar {
+    margin-top: 10px;
+    margin-left: 10px;
+    background: white;
+    border-radius: 2px;
+    height: fit-content;
+    vertical-align: top;
+    border: 1px solid #eee;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    width: 24%;
+  }
+
+  .sidebar_filter {
+    width: 25%
+  }
+  .content {
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .main_container {
+    display: flex;
+    width: 1440px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .sidebar {
+    margin-top: 10px;
+    margin-left: 10px;
+    background: white;
+    border-radius: 2px;
+    height: fit-content;
+    vertical-align: top;
+    border: 1px solid #eee;
+    /* transition: all 0.2s ease-in-out; */
+    line-height: 24px;
+    width: 24%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+  }
+  
+  .sidebar_filter {
+    width: 15%
+  }
+  .content {
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+  }
+}
+
+.col {
+  display: inline-block;
+}
+
+.header_title {
+  padding: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+}
